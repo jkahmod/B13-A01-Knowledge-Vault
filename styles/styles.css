@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* google fonts */
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+/* sheared design  */
+.btn{
+    font-family:inter;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 16px 16px ;
+    color: #ffff;
+    background-color:#469165;
+    border: 1px solid #469165;
+    border-radius: 4px;
+}
+.btn:hover{
+    font-family:inter;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 16px 16px ;
+    color: #469165;
+    border: 1px solid #469165;
+    background-color:#ffff;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+}
+.btn2 {
+    font-family:inter;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 16px 16px ;
+    color: #ffff;
+    background-color:transparent;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.btn2:hover{
+    font-family:inter;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 16px 16px ;
+    color: #469165;
+    border: 1px solid #469165;
+    background-color:#ffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* sheared design  */
+
+header{
+    padding: 20px;
+
+}
+.nav-bar{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar img{
+  width:139px;
+  height: 60px;
+    
+}
+.nav-bar .menu{
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+  
+}
+.nav-bar .menu a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+/* hero section design start */
+
+#hero{
+
+    background-image:url(../images/hero-bg.png);    
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 600px;
+    padding-top: 200px;
+}
+#hero .hero-container{
+    width:71%;
+    max-width: 1140px;
+    margin: 0 auto;  
+    text-align: center;
+}
+
+.hero-icon {
+    text-align: center;
+}
+.hero-icon button {
+    color: #469165;
+    background-color: #ffff;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 25px;
+    font-size: 18px;
+    font-weight:700px;
+}
+.hero-icon i{
+    margin-right: 6px;
+    padding: 5px 3px;
+    background-color:#caffe0;
+    border: none;
+    border-radius: 40px;
+}
+
+.hero-container h1 {
+    color: #ffff;
+    font-size: 75px;
+    font-weight:800px;
+    text-transform: capitalize;
+    margin: 16px 0 ;
+}
+
+.green-color{
+    color: #30B868;
+}
+
+.hero-container p {
+    color: #ffff;
+    font-size: 16px;
+    font-weight:400px;
+    text-transform: capitalize;
+    margin: 20px 0 ;
+    line-height:40px;
+
+}
