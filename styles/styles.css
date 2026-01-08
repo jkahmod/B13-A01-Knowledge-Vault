@@ -191,5 +191,68 @@ header{
     border: none;
     border-radius: 50px;
 }
+/* end */
 
+/* start The Solution */
+#solution{
+    margin: 50px 50px;
+}
+#solution .solution-container{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    margin:0 auto;
+    gap: 60px;
+    align-items: center;
+}
+.solution-content h2{
+    font-size: 45px;
+    font-weight: 700px;
+    margin-bottom: 16px;
+}
+.solution-content p{
+    font-size: 16px;
+    font-weight:400px;
+    margin-bottom: 16px;
+    color: #000000;
+}
+.solution-content li{
+    font-size: 16px;
+    font-weight:400px;
+    list-style-type:none;
+    line-height: 35px;
+}
+.solution-content img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
 
+/* end */
+#early-access{
+    margin: 100px 0;
+
+}
+#early-access .early-container{
+    background-color: #F7F6F2;
+    width: 71%;
+    max-width: 1140px;
+    margin:0 auto;
+    padding: 70px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+}
+.early-container h2{
+   font-size: 40px;
+    font-weight:bold;
+
+    margin-bottom: 16px;
+}
+.early-container p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight:400px;
+    margin:24px 15px;
+    color: #000000;
+}
+}
