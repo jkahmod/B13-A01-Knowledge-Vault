@@ -182,6 +182,7 @@ header{
 }
 
 .section-card {
+    width: 240px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 70px 10px;
     border: none;
@@ -197,7 +198,7 @@ header{
 
 /* start The Solution */
 #solution{
-    margin: 50px 50px;
+    margin: 100px 0px;
 }
 #solution .solution-container{
     width: 71%;
