@@ -92,7 +92,6 @@ header{
 /* hero section design start */
 
 #hero{
-
     background-image:url(../images/hero-bg.png);    
     background-repeat: no-repeat;
     background-position: center ;
@@ -146,5 +145,51 @@ header{
     text-transform: capitalize;
     margin: 20px 0 ;
     line-height:40px;
-
 }
+/* end */
+#notes{
+    margin-top: 100px;
+}
+#notes .notes-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.notes-container h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.notes-container p{
+    font-size: 16px;
+    font-weight:400px;
+    margin-bottom: 16px;
+    color: #888888;
+}
+.notes-container h4 {
+    font-size: 22px;
+    font-weight:600px;
+    margin:16px 0px;
+}
+
+#notes .notes-section{
+    display: flex;
+    gap: 24px;
+    margin: 50px 0;
+}
+
+.section-card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 70px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.section-card img {
+    background-color: #F95555;
+    padding: 14px;
+    border: none;
+    border-radius: 50px;
+}
+
+
